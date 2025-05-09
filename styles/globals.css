@@ -1,0 +1,22 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --nav-bg: #f2f2f2;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --nav-bg: #1f1f1f;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: var(--nav-bg);
+}
