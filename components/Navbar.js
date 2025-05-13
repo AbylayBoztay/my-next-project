@@ -16,9 +16,10 @@ export default function Navbar() {
   </div>
 
   <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-    <Link href="/">Home</Link>
-    <Link href="/about">About</Link>
-    <Link href="/contact">Contact</Link>
+    <Link href="/">Главная</Link>
+    <Link href="/news">Новости</Link>
+    <Link href="/about">О нас</Link>
+    <Link href="/contact">Контакты</Link>
   </div>
 
   <div className="navbar-right">
